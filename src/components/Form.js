@@ -47,7 +47,7 @@ export const Form = ({editFormVisibility, editTodo, cancelUpdate}) => {
           <div className='input-and-btn'>
               <input type="text" className='form-control' required
               value={todoValue} onChange={(e)=>setTodoValue(e.target.value)}/>
-            <button type="submit" className='btn btn-primary btn-md'>Add Now</button>
+            <button type="submit" className='btn btn-info btn-md'>Add Now</button>
           </div>
         </form>
       ):(
